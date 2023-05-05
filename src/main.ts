@@ -23,5 +23,9 @@ app.component('svg-icon', SvgIcon)
 
 //store
 app.use(store)
+
+
+//router
 app.use(router)
+
 app.mount('#app')
