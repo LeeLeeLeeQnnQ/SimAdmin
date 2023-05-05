@@ -1,5 +1,5 @@
 <template>
-    chart
+    chartBar
 </template>
 <script setup lang="ts" name="chartBar">
 // import * as echarts from 'echarts'

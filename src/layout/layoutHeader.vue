@@ -28,7 +28,7 @@ import {
     MenuFoldOutlined,
 } from '@ant-design/icons-vue';
 
-import { useRoute } from 'vue-router';
+// import { useRoute } from 'vue-router';
 import { ref , computed } from 'vue';
 //store - user
 import { useUserStore } from '@/store/user.js'
@@ -49,8 +49,8 @@ const userStore: any = useUserStore()
 const userName = computed(() => userStore.name.charAt(0))
 
 
-const route = useRoute()
-console.log(route.meta);
+// const route = useRoute()
+// console.log(route.meta);
 
 
 
@@ -58,14 +58,13 @@ console.log(route.meta);
 
 <style lang='less' scoped>
 .layoutHeaderStyle {
-    background: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: auto;
-    padding: 10px !important;
-    height: 3.5em !important;
-    line-height: 3.5em !important;
+    padding: 8px !important;
+    height: 49px !important;
+    line-height: 49px !important;
+    color:#fff;
 }
 .leftBox{
     display: flex;

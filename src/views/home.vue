@@ -11,9 +11,46 @@
     <svg-icon name="vue" className="icon-l" color="#eee" />
     <svg-icon name="vue" className="icon-xl" color="#eee" />
     <svg-icon name="vue" className="icon-xxl" color="#eee" />
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+                <br>
 </template>
 
-<script setup lang="ts"name="home">
+<script setup lang="ts" name="home">
 //store - app
 import { useAppStore } from '@/store/app.js'
 //store - user
